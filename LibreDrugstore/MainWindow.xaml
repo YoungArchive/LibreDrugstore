@@ -1,0 +1,32 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<Window
+    x:Class="LibreDrugstore.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LibreDrugstore"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <NavigationView x:Name="MainNV" Grid.Row="1" PaneDisplayMode="Left" IsTabStop="False" SelectionChanged="MainNV_SelectionChanged" BackRequested="MainNV_BackRequested">
+        <NavigationView.MenuItems>
+            <NavigationViewItem Content="主页" Icon="Home" ToolTipService.ToolTip="主页" Tag="HomePage"/>
+            <NavigationViewItem Content="结算" Icon="Link" ToolTipService.ToolTip="结算" Tag="CheckoutPage"/>
+            <NavigationViewItem Content="销售记录" Icon="Library" ToolTipService.ToolTip="销售记录" Tag="HistoryPage"/>
+            <NavigationViewItem Content="药品管理" Icon="MoveToFolder" ToolTipService.ToolTip="药品管理" SelectsOnInvoked="False">
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Content="新建药品" Icon="NewFolder" ToolTipService.ToolTip="新建药品" Tag="NewDrugsPage"/>
+                    <NavigationViewItem Content="查询药品" Icon="SyncFolder" ToolTipService.ToolTip="查询药品" Tag="QueryDrugsPage"/>
+                </NavigationViewItem.MenuItems>
+            </NavigationViewItem>
+            <NavigationViewItem Content="会员管理" Icon="Contact" ToolTipService.ToolTip="Account" SelectsOnInvoked="False">
+                <NavigationViewItem.MenuItems>
+                    <NavigationViewItem Content="新建会员" Icon="AddFriend" ToolTipService.ToolTip="新建会员" Tag="NewMemberPage"/>
+                    <NavigationViewItem Content="查询会员" Icon="ContactInfo" ToolTipService.ToolTip="查询会员" Tag="QueryMemberPage"/>
+                </NavigationViewItem.MenuItems>
+            </NavigationViewItem>
+        </NavigationView.MenuItems>
+        <Frame x:Name="ContentNV"/>
+    </NavigationView>
+</Window>

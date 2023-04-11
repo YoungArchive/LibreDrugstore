@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "LibreDrugstore (Package)", "LibreDrugstore (Package)\LibreDrugstore (Package).wapproj", "{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibreDrugstore", "LibreDrugstore\LibreDrugstore.vcxproj", "{5178E669-05ED-4A4D-AFD6-078570749974}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Debug|ARM64.Build.0 = Debug|ARM64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Debug|x64.ActiveCfg = Debug|x64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Debug|x64.Build.0 = Debug|x64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Debug|x64.Deploy.0 = Debug|x64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Debug|x86.ActiveCfg = Debug|x86
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Debug|x86.Build.0 = Debug|x86
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Debug|x86.Deploy.0 = Debug|x86
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Release|ARM64.ActiveCfg = Release|ARM64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Release|ARM64.Build.0 = Release|ARM64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Release|ARM64.Deploy.0 = Release|ARM64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Release|x64.ActiveCfg = Release|x64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Release|x64.Build.0 = Release|x64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Release|x64.Deploy.0 = Release|x64
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Release|x86.ActiveCfg = Release|x86
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Release|x86.Build.0 = Release|x86
+		{AD38CF22-E68D-4C39-A2AF-E11F09AF339C}.Release|x86.Deploy.0 = Release|x86
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Debug|ARM64.Build.0 = Debug|ARM64
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Debug|x64.ActiveCfg = Debug|x64
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Debug|x64.Build.0 = Debug|x64
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Debug|x86.ActiveCfg = Debug|Win32
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Debug|x86.Build.0 = Debug|Win32
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Release|ARM64.ActiveCfg = Release|ARM64
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Release|ARM64.Build.0 = Release|ARM64
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Release|x64.ActiveCfg = Release|x64
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Release|x64.Build.0 = Release|x64
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Release|x86.ActiveCfg = Release|Win32
+		{5178E669-05ED-4A4D-AFD6-078570749974}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E5D6E79-5A08-462F-B503-1AA22DC73A79}
+	EndGlobalSection
+EndGlobal
